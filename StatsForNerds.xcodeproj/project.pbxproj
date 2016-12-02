@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A41ED5131DF09B44008387C8 /* normaldistribution icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED5111DF09B44008387C8 /* normaldistribution icon.png */; };
+		A41ED5141DF09B44008387C8 /* t distribution icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED5121DF09B44008387C8 /* t distribution icon.png */; };
+		A41ED5161DF09B4C008387C8 /* chisquare distrbution icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED5151DF09B4C008387C8 /* chisquare distrbution icon.png */; };
+		A41ED5181DF0AA7F008387C8 /* DistributionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41ED5171DF0AA7F008387C8 /* DistributionViewController.swift */; };
+		A41ED5211DF0AFF1008387C8 /* StandardNormal_Table-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED51F1DF0AFF1008387C8 /* StandardNormal_Table-1.png */; };
+		A41ED5221DF0AFF1008387C8 /* StandardNormal_Table-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED5201DF0AFF1008387C8 /* StandardNormal_Table-2.png */; };
+		A41ED5241DF0B4BB008387C8 /* NormalDistributionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41ED5231DF0B4BB008387C8 /* NormalDistributionController.swift */; };
+		A41ED5261DF0B65A008387C8 /* TdistributionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41ED5251DF0B65A008387C8 /* TdistributionController.swift */; };
+		A41ED5281DF0B78B008387C8 /* t_Table-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED5271DF0B78B008387C8 /* t_Table-1.png */; };
+		A41ED52A1DF0B940008387C8 /* ChidistributionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41ED5291DF0B940008387C8 /* ChidistributionController.swift */; };
+		A41ED52C1DF0B9AA008387C8 /* ChiSquare_Table-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED52B1DF0B9AA008387C8 /* ChiSquare_Table-1.png */; };
+		A41ED5301DF0BD77008387C8 /* DictionaryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41ED52F1DF0BD77008387C8 /* DictionaryController.swift */; };
+		A41ED5381DF0C37A008387C8 /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED5371DF0C37A008387C8 /* images.png */; };
+		A41ED53F1DF0CD67008387C8 /* stories-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED53D1DF0CD67008387C8 /* stories-1.png */; };
+		A41ED5401DF0CD67008387C8 /* table.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED53E1DF0CD67008387C8 /* table.png */; };
+		A41ED5421DF0CDE4008387C8 /* dictionary.png in Resources */ = {isa = PBXBuildFile; fileRef = A41ED5411DF0CDE4008387C8 /* dictionary.png */; };
+		A41ED5461DF0D591008387C8 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41ED5451DF0D591008387C8 /* Question.swift */; };
+		A41ED5481DF0E1BB008387C8 /* DescriptionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41ED5471DF0E1BB008387C8 /* DescriptionController.swift */; };
+		A455D93A1DF1D01E0095967A /* hypergeometric.png in Resources */ = {isa = PBXBuildFile; fileRef = A455D9391DF1D01E0095967A /* hypergeometric.png */; };
+		A455D93C1DF1D2A80095967A /* HypergeometricController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455D93B1DF1D2A80095967A /* HypergeometricController.swift */; };
+		A455D93E1DF1D9B20095967A /* negative.png in Resources */ = {isa = PBXBuildFile; fileRef = A455D93D1DF1D9B20095967A /* negative.png */; };
+		A455D9401DF1DAB10095967A /* NegativeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455D93F1DF1DAB10095967A /* NegativeController.swift */; };
+		A455D9421DF1DCE60095967A /* poisson.png in Resources */ = {isa = PBXBuildFile; fileRef = A455D9411DF1DCE60095967A /* poisson.png */; };
+		A455D9441DF1DE380095967A /* PoissonController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A455D9431DF1DE380095967A /* PoissonController.swift */; };
+		A4A43BB71DF1259D00D6BCBB /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A43BB61DF1259D00D6BCBB /* Word.swift */; };
+		A4A43BB91DF129A300D6BCBB /* DefinitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A43BB81DF129A300D6BCBB /* DefinitionController.swift */; };
+		A4A43BBB1DF13F3700D6BCBB /* CheckListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A43BBA1DF13F3700D6BCBB /* CheckListViewController.swift */; };
+		A4A43BBF1DF13FB100D6BCBB /* binomial.png in Resources */ = {isa = PBXBuildFile; fileRef = A4A43BBE1DF13FB100D6BCBB /* binomial.png */; };
+		A4A43BC11DF1416E00D6BCBB /* BinomialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A43BC01DF1416E00D6BCBB /* BinomialViewController.swift */; };
+		A4A43BC31DF1426A00D6BCBB /* EquationsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A43BC21DF1426A00D6BCBB /* EquationsController.swift */; };
+		A4FE2D991DF083E5001B1BE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE2D981DF083E5001B1BE9 /* AppDelegate.swift */; };
+		A4FE2D9B1DF083E5001B1BE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE2D9A1DF083E5001B1BE9 /* ViewController.swift */; };
+		A4FE2D9E1DF083E5001B1BE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FE2D9C1DF083E5001B1BE9 /* Main.storyboard */; };
+		A4FE2DA01DF083E6001B1BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FE2D9F1DF083E6001B1BE9 /* Assets.xcassets */; };
+		A4FE2DA31DF083E6001B1BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FE2DA11DF083E6001B1BE9 /* LaunchScreen.storyboard */; };
+		A4FE2DAB1DF08C8D001B1BE9 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FE2DAA1DF08C8D001B1BE9 /* AboutViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A41ED5111DF09B44008387C8 /* normaldistribution icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "normaldistribution icon.png"; path = "StatsForNerds/normaldistribution icon.png"; sourceTree = "<group>"; };
+		A41ED5121DF09B44008387C8 /* t distribution icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "t distribution icon.png"; path = "StatsForNerds/t distribution icon.png"; sourceTree = "<group>"; };
+		A41ED5151DF09B4C008387C8 /* chisquare distrbution icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "chisquare distrbution icon.png"; path = "StatsForNerds/chisquare distrbution icon.png"; sourceTree = "<group>"; };
+		A41ED5171DF0AA7F008387C8 /* DistributionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DistributionViewController.swift; sourceTree = "<group>"; };
+		A41ED51F1DF0AFF1008387C8 /* StandardNormal_Table-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StandardNormal_Table-1.png"; path = "StatsForNerds/StandardNormal_Table-1.png"; sourceTree = "<group>"; };
+		A41ED5201DF0AFF1008387C8 /* StandardNormal_Table-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "StandardNormal_Table-2.png"; path = "StatsForNerds/StandardNormal_Table-2.png"; sourceTree = "<group>"; };
+		A41ED5231DF0B4BB008387C8 /* NormalDistributionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalDistributionController.swift; sourceTree = "<group>"; };
+		A41ED5251DF0B65A008387C8 /* TdistributionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TdistributionController.swift; sourceTree = "<group>"; };
+		A41ED5271DF0B78B008387C8 /* t_Table-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "t_Table-1.png"; path = "StatsForNerds/t_Table-1.png"; sourceTree = "<group>"; };
+		A41ED5291DF0B940008387C8 /* ChidistributionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChidistributionController.swift; sourceTree = "<group>"; };
+		A41ED52B1DF0B9AA008387C8 /* ChiSquare_Table-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ChiSquare_Table-1.png"; path = "StatsForNerds/ChiSquare_Table-1.png"; sourceTree = "<group>"; };
+		A41ED52F1DF0BD77008387C8 /* DictionaryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DictionaryController.swift; sourceTree = "<group>"; };
+		A41ED5371DF0C37A008387C8 /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = images.png; path = StatsForNerds/images.png; sourceTree = "<group>"; };
+		A41ED53D1DF0CD67008387C8 /* stories-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "stories-1.png"; path = "StatsForNerds/stories-1.png"; sourceTree = "<group>"; };
+		A41ED53E1DF0CD67008387C8 /* table.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = table.png; path = StatsForNerds/table.png; sourceTree = "<group>"; };
+		A41ED5411DF0CDE4008387C8 /* dictionary.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = dictionary.png; path = StatsForNerds/dictionary.png; sourceTree = "<group>"; };
+		A41ED5451DF0D591008387C8 /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A41ED5471DF0E1BB008387C8 /* DescriptionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionController.swift; sourceTree = "<group>"; };
+		A455D9391DF1D01E0095967A /* hypergeometric.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hypergeometric.png; path = StatsForNerds/hypergeometric.png; sourceTree = "<group>"; };
+		A455D93B1DF1D2A80095967A /* HypergeometricController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HypergeometricController.swift; path = ../HypergeometricController.swift; sourceTree = "<group>"; };
+		A455D93D1DF1D9B20095967A /* negative.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = negative.png; path = StatsForNerds/negative.png; sourceTree = "<group>"; };
+		A455D93F1DF1DAB10095967A /* NegativeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NegativeController.swift; sourceTree = "<group>"; };
+		A455D9411DF1DCE60095967A /* poisson.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = poisson.png; path = StatsForNerds/poisson.png; sourceTree = "<group>"; };
+		A455D9431DF1DE380095967A /* PoissonController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoissonController.swift; sourceTree = "<group>"; };
+		A4A43BB61DF1259D00D6BCBB /* Word.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		A4A43BB81DF129A300D6BCBB /* DefinitionController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefinitionController.swift; sourceTree = "<group>"; };
+		A4A43BBA1DF13F3700D6BCBB /* CheckListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckListViewController.swift; sourceTree = "<group>"; };
+		A4A43BBE1DF13FB100D6BCBB /* binomial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = binomial.png; path = StatsForNerds/binomial.png; sourceTree = "<group>"; };
+		A4A43BC01DF1416E00D6BCBB /* BinomialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinomialViewController.swift; sourceTree = "<group>"; };
+		A4A43BC21DF1426A00D6BCBB /* EquationsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EquationsController.swift; sourceTree = "<group>"; };
+		A4FE2D951DF083E5001B1BE9 /* StatsForNerds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatsForNerds.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4FE2D981DF083E5001B1BE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4FE2D9A1DF083E5001B1BE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4FE2D9D1DF083E5001B1BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4FE2D9F1DF083E6001B1BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4FE2DA21DF083E6001B1BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4FE2DA41DF083E6001B1BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FE2DAA1DF08C8D001B1BE9 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4FE2D921DF083E5001B1BE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A41ED50A1DF09890008387C8 /* pictures */ = {
+			isa = PBXGroup;
+			children = (
+				A455D9411DF1DCE60095967A /* poisson.png */,
+				A455D93D1DF1D9B20095967A /* negative.png */,
+				A455D9391DF1D01E0095967A /* hypergeometric.png */,
+				A4A43BBE1DF13FB100D6BCBB /* binomial.png */,
+				A41ED5411DF0CDE4008387C8 /* dictionary.png */,
+				A41ED53D1DF0CD67008387C8 /* stories-1.png */,
+				A41ED53E1DF0CD67008387C8 /* table.png */,
+				A41ED5371DF0C37A008387C8 /* images.png */,
+				A41ED52B1DF0B9AA008387C8 /* ChiSquare_Table-1.png */,
+				A41ED5271DF0B78B008387C8 /* t_Table-1.png */,
+				A41ED51F1DF0AFF1008387C8 /* StandardNormal_Table-1.png */,
+				A41ED5201DF0AFF1008387C8 /* StandardNormal_Table-2.png */,
+				A41ED5151DF09B4C008387C8 /* chisquare distrbution icon.png */,
+				A41ED5111DF09B44008387C8 /* normaldistribution icon.png */,
+				A41ED5121DF09B44008387C8 /* t distribution icon.png */,
+			);
+			name = pictures;
+			sourceTree = "<group>";
+		};
+		A4FE2D8C1DF083E5001B1BE9 = {
+			isa = PBXGroup;
+			children = (
+				A41ED50A1DF09890008387C8 /* pictures */,
+				A4FE2D971DF083E5001B1BE9 /* StatsForNerds */,
+				A4FE2D961DF083E5001B1BE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A4FE2D961DF083E5001B1BE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FE2D951DF083E5001B1BE9 /* StatsForNerds.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4FE2D971DF083E5001B1BE9 /* StatsForNerds */ = {
+			isa = PBXGroup;
+			children = (
+				A455D93B1DF1D2A80095967A /* HypergeometricController.swift */,
+				A455D93F1DF1DAB10095967A /* NegativeController.swift */,
+				A4A43BBA1DF13F3700D6BCBB /* CheckListViewController.swift */,
+				A4FE2D981DF083E5001B1BE9 /* AppDelegate.swift */,
+				A4FE2D9A1DF083E5001B1BE9 /* ViewController.swift */,
+				A41ED52F1DF0BD77008387C8 /* DictionaryController.swift */,
+				A4A43BB61DF1259D00D6BCBB /* Word.swift */,
+				A41ED5291DF0B940008387C8 /* ChidistributionController.swift */,
+				A4FE2D9C1DF083E5001B1BE9 /* Main.storyboard */,
+				A4A43BC21DF1426A00D6BCBB /* EquationsController.swift */,
+				A4A43BC01DF1416E00D6BCBB /* BinomialViewController.swift */,
+				A4A43BB81DF129A300D6BCBB /* DefinitionController.swift */,
+				A41ED5471DF0E1BB008387C8 /* DescriptionController.swift */,
+				A41ED5251DF0B65A008387C8 /* TdistributionController.swift */,
+				A41ED5231DF0B4BB008387C8 /* NormalDistributionController.swift */,
+				A41ED5171DF0AA7F008387C8 /* DistributionViewController.swift */,
+				A4FE2DAA1DF08C8D001B1BE9 /* AboutViewController.swift */,
+				A4FE2D9F1DF083E6001B1BE9 /* Assets.xcassets */,
+				A4FE2DA11DF083E6001B1BE9 /* LaunchScreen.storyboard */,
+				A4FE2DA41DF083E6001B1BE9 /* Info.plist */,
+				A41ED5451DF0D591008387C8 /* Question.swift */,
+				A455D9431DF1DE380095967A /* PoissonController.swift */,
+			);
+			path = StatsForNerds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4FE2D941DF083E5001B1BE9 /* StatsForNerds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4FE2DA71DF083E6001B1BE9 /* Build configuration list for PBXNativeTarget "StatsForNerds" */;
+			buildPhases = (
+				A4FE2D911DF083E5001B1BE9 /* Sources */,
+				A4FE2D921DF083E5001B1BE9 /* Frameworks */,
+				A4FE2D931DF083E5001B1BE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StatsForNerds;
+			productName = StatsForNerds;
+			productReference = A4FE2D951DF083E5001B1BE9 /* StatsForNerds.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4FE2D8D1DF083E5001B1BE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Yimin Mei";
+				TargetAttributes = {
+					A4FE2D941DF083E5001B1BE9 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A4FE2D901DF083E5001B1BE9 /* Build configuration list for PBXProject "StatsForNerds" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4FE2D8C1DF083E5001B1BE9;
+			productRefGroup = A4FE2D961DF083E5001B1BE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4FE2D941DF083E5001B1BE9 /* StatsForNerds */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4FE2D931DF083E5001B1BE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41ED5211DF0AFF1008387C8 /* StandardNormal_Table-1.png in Resources */,
+				A41ED5131DF09B44008387C8 /* normaldistribution icon.png in Resources */,
+				A4FE2DA31DF083E6001B1BE9 /* LaunchScreen.storyboard in Resources */,
+				A41ED5281DF0B78B008387C8 /* t_Table-1.png in Resources */,
+				A41ED5141DF09B44008387C8 /* t distribution icon.png in Resources */,
+				A455D9421DF1DCE60095967A /* poisson.png in Resources */,
+				A4A43BBF1DF13FB100D6BCBB /* binomial.png in Resources */,
+				A4FE2DA01DF083E6001B1BE9 /* Assets.xcassets in Resources */,
+				A41ED5161DF09B4C008387C8 /* chisquare distrbution icon.png in Resources */,
+				A4FE2D9E1DF083E5001B1BE9 /* Main.storyboard in Resources */,
+				A41ED5401DF0CD67008387C8 /* table.png in Resources */,
+				A41ED52C1DF0B9AA008387C8 /* ChiSquare_Table-1.png in Resources */,
+				A455D93E1DF1D9B20095967A /* negative.png in Resources */,
+				A41ED5381DF0C37A008387C8 /* images.png in Resources */,
+				A455D93A1DF1D01E0095967A /* hypergeometric.png in Resources */,
+				A41ED5221DF0AFF1008387C8 /* StandardNormal_Table-2.png in Resources */,
+				A41ED53F1DF0CD67008387C8 /* stories-1.png in Resources */,
+				A41ED5421DF0CDE4008387C8 /* dictionary.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4FE2D911DF083E5001B1BE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A43BB91DF129A300D6BCBB /* DefinitionController.swift in Sources */,
+				A41ED52A1DF0B940008387C8 /* ChidistributionController.swift in Sources */,
+				A41ED5261DF0B65A008387C8 /* TdistributionController.swift in Sources */,
+				A4A43BC11DF1416E00D6BCBB /* BinomialViewController.swift in Sources */,
+				A455D93C1DF1D2A80095967A /* HypergeometricController.swift in Sources */,
+				A455D9441DF1DE380095967A /* PoissonController.swift in Sources */,
+				A41ED5241DF0B4BB008387C8 /* NormalDistributionController.swift in Sources */,
+				A41ED5181DF0AA7F008387C8 /* DistributionViewController.swift in Sources */,
+				A4A43BB71DF1259D00D6BCBB /* Word.swift in Sources */,
+				A4A43BBB1DF13F3700D6BCBB /* CheckListViewController.swift in Sources */,
+				A4FE2DAB1DF08C8D001B1BE9 /* AboutViewController.swift in Sources */,
+				A4FE2D9B1DF083E5001B1BE9 /* ViewController.swift in Sources */,
+				A455D9401DF1DAB10095967A /* NegativeController.swift in Sources */,
+				A4FE2D991DF083E5001B1BE9 /* AppDelegate.swift in Sources */,
+				A41ED5481DF0E1BB008387C8 /* DescriptionController.swift in Sources */,
+				A41ED5301DF0BD77008387C8 /* DictionaryController.swift in Sources */,
+				A41ED5461DF0D591008387C8 /* Question.swift in Sources */,
+				A4A43BC31DF1426A00D6BCBB /* EquationsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4FE2D9C1DF083E5001B1BE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FE2D9D1DF083E5001B1BE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FE2DA11DF083E6001B1BE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FE2DA21DF083E6001B1BE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4FE2DA51DF083E6001B1BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4FE2DA61DF083E6001B1BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4FE2DA81DF083E6001B1BE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StatsForNerds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wearable.StatsForNerds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A4FE2DA91DF083E6001B1BE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = StatsForNerds/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wearable.StatsForNerds;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4FE2D901DF083E5001B1BE9 /* Build configuration list for PBXProject "StatsForNerds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE2DA51DF083E6001B1BE9 /* Debug */,
+				A4FE2DA61DF083E6001B1BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4FE2DA71DF083E6001B1BE9 /* Build configuration list for PBXNativeTarget "StatsForNerds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4FE2DA81DF083E6001B1BE9 /* Debug */,
+				A4FE2DA91DF083E6001B1BE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A4FE2D8D1DF083E5001B1BE9 /* Project object */;
+}
