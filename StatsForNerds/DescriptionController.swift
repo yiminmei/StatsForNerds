@@ -9,14 +9,16 @@
 
 import UIKit
 
+// the screen for displaying words
 class DescriptionController: UIViewController {
 
     @IBOutlet weak var descript: UITextView!
     @IBOutlet weak var name: UITextView!
+    // gets a question object from segue
     var question : Question! = nil
     
+    // sets the word to display
     override func viewDidLoad() {
-        
     
         super.viewDidLoad()
          //Do any additional setup after loading the view, typically from a nib.

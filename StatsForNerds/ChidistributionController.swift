@@ -6,16 +6,11 @@
 //  Copyright © 2016 Yimin Mei. All rights reserved.
 //
 import UIKit
-
+// class to control chi distrbution table
 class ChidistributionController: UIViewController{
-    
-    
-    
+  
     override func viewDidLoad(){
         super.viewDidLoad();
-        
-        
-        
     }
     override func didReceiveMemoryWarning(){
         super.didReceiveMemoryWarning();

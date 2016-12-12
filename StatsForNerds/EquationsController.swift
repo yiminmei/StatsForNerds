@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+// class to display options of equations
 class EquationsController: UIViewController {
     
     

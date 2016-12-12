@@ -8,14 +8,11 @@
 
 import UIKit
 
+//displays chi square table
 class TdistributionController: UIViewController{
-    
-    
     
     override func viewDidLoad(){
         super.viewDidLoad();
-        
-        
         
     }
     override func didReceiveMemoryWarning(){

@@ -7,19 +7,15 @@
 //
 import UIKit
 
+//model for representing Questions
 class Question{
     
     var name : String
     var description : String
-    
+// initializer
     init( _ name : String , _ description : String){
         self.name = name;
         self.description = description;
         
     }
-    
-    
-    
-    
-    
 }

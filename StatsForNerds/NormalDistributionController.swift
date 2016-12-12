@@ -7,15 +7,11 @@
 //
 
 import UIKit
-
+// class to handle normal distribution
 class NormalDistributionController: UIViewController{
-    
-    
     
     override func viewDidLoad(){
         super.viewDidLoad();
-        
-        
         
     }
     override func didReceiveMemoryWarning(){
